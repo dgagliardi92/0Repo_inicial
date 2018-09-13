@@ -1,0 +1,16 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="smtestmobile.smtestmobile.controller.barcode" displayBlock="true">
+	<App id="idAppControl">
+		<pages><Page title="Mobile APP">
+				<content>
+				    <Toolbar width="100%" id="toolbar1">
+				        <content>
+				            <Button xmlns="sap.m" width="40px" id="btn_barcode" press="onPressBarcode" icon="sap-icon://bar-code"/>
+				            <Button xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" width="40px" id="btn_camera" press="onPressCam" icon="sap-icon://camera"/>
+				        </content>
+				    </Toolbar>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

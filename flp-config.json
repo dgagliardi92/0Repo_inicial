@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "mobile.smtestmobile",
+        "description": "Mobile Native",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#smtestmobile-Display",
+        "navigationComponentName": "smtestmobile.smtestmobile",
+        "intentSemanticObject": "smtestmobile",
+        "intentAction": "Display",
+        "html5ApplicationName": "smtestmobile",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "80fe10ae-e87c-457f-bc03-eb1e36f588fc"
+        ],
+        "contentPackages": [
+            "556ed4b3-7145-4520-9b26-d0acef384bbc"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Mobile",
+        "subtitle": "",
+        "searchKeywords": "Mobile,",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
